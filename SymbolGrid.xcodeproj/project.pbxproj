@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8694064250CA2270090E566 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694063250CA2270090E566 /* Tests_iOS.swift */; };
+		F869406F250CA2270090E566 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869406E250CA2270090E566 /* Tests_macOS.swift */; };
+		F8694071250CA2270090E566 /* SymbolGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694048250CA2260090E566 /* SymbolGridApp.swift */; };
+		F8694072250CA2270090E566 /* SymbolGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694048250CA2260090E566 /* SymbolGridApp.swift */; };
+		F8694073250CA2270090E566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694049250CA2260090E566 /* ContentView.swift */; };
+		F8694074250CA2270090E566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694049250CA2260090E566 /* ContentView.swift */; };
+		F8694075250CA2270090E566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869404A250CA2270090E566 /* Assets.xcassets */; };
+		F8694076250CA2270090E566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869404A250CA2270090E566 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8694060250CA2270090E566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8694043250CA2260090E566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F869404E250CA2270090E566;
+			remoteInfo = "SymbolGrid (iOS)";
+		};
+		F869406B250CA2270090E566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8694043250CA2260090E566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8694056250CA2270090E566;
+			remoteInfo = "SymbolGrid (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8694048250CA2260090E566 /* SymbolGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridApp.swift; sourceTree = "<group>"; };
+		F8694049250CA2260090E566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F869404A250CA2270090E566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F869404F250CA2270090E566 /* SymbolGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8694052250CA2270090E566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8694057250CA2270090E566 /* SymbolGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8694059250CA2270090E566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F869405A250CA2270090E566 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F869405F250CA2270090E566 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8694063250CA2270090E566 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F8694065250CA2270090E566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F869406A250CA2270090E566 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F869406E250CA2270090E566 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F8694070250CA2270090E566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F869404C250CA2270090E566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694054250CA2270090E566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869405C250CA2270090E566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694067250CA2270090E566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8694042250CA2260090E566 = {
+			isa = PBXGroup;
+			children = (
+				F8694047250CA2260090E566 /* Shared */,
+				F8694051250CA2270090E566 /* iOS */,
+				F8694058250CA2270090E566 /* macOS */,
+				F8694062250CA2270090E566 /* Tests iOS */,
+				F869406D250CA2270090E566 /* Tests macOS */,
+				F8694050250CA2270090E566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8694047250CA2260090E566 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F8694048250CA2260090E566 /* SymbolGridApp.swift */,
+				F8694049250CA2260090E566 /* ContentView.swift */,
+				F869404A250CA2270090E566 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F8694050250CA2270090E566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F869404F250CA2270090E566 /* SymbolGrid.app */,
+				F8694057250CA2270090E566 /* SymbolGrid.app */,
+				F869405F250CA2270090E566 /* Tests iOS.xctest */,
+				F869406A250CA2270090E566 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8694051250CA2270090E566 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8694052250CA2270090E566 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F8694058250CA2270090E566 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8694059250CA2270090E566 /* Info.plist */,
+				F869405A250CA2270090E566 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F8694062250CA2270090E566 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8694063250CA2270090E566 /* Tests_iOS.swift */,
+				F8694065250CA2270090E566 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F869406D250CA2270090E566 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F869406E250CA2270090E566 /* Tests_macOS.swift */,
+				F8694070250CA2270090E566 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F869404E250CA2270090E566 /* SymbolGrid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8694079250CA2270090E566 /* Build configuration list for PBXNativeTarget "SymbolGrid (iOS)" */;
+			buildPhases = (
+				F869404B250CA2270090E566 /* Sources */,
+				F869404C250CA2270090E566 /* Frameworks */,
+				F869404D250CA2270090E566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SymbolGrid (iOS)";
+			productName = "SymbolGrid (iOS)";
+			productReference = F869404F250CA2270090E566 /* SymbolGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8694056250CA2270090E566 /* SymbolGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F869407C250CA2270090E566 /* Build configuration list for PBXNativeTarget "SymbolGrid (macOS)" */;
+			buildPhases = (
+				F8694053250CA2270090E566 /* Sources */,
+				F8694054250CA2270090E566 /* Frameworks */,
+				F8694055250CA2270090E566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SymbolGrid (macOS)";
+			productName = "SymbolGrid (macOS)";
+			productReference = F8694057250CA2270090E566 /* SymbolGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F869405E250CA2270090E566 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F869407F250CA2270090E566 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F869405B250CA2270090E566 /* Sources */,
+				F869405C250CA2270090E566 /* Frameworks */,
+				F869405D250CA2270090E566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8694061250CA2270090E566 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F869405F250CA2270090E566 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F8694069250CA2270090E566 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8694082250CA2270090E566 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F8694066250CA2270090E566 /* Sources */,
+				F8694067250CA2270090E566 /* Frameworks */,
+				F8694068250CA2270090E566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F869406C250CA2270090E566 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F869406A250CA2270090E566 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8694043250CA2260090E566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F869404E250CA2270090E566 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8694056250CA2270090E566 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F869405E250CA2270090E566 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F869404E250CA2270090E566;
+					};
+					F8694069250CA2270090E566 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F8694056250CA2270090E566;
+					};
+				};
+			};
+			buildConfigurationList = F8694046250CA2260090E566 /* Build configuration list for PBXProject "SymbolGrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8694042250CA2260090E566;
+			productRefGroup = F8694050250CA2270090E566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F869404E250CA2270090E566 /* SymbolGrid (iOS) */,
+				F8694056250CA2270090E566 /* SymbolGrid (macOS) */,
+				F869405E250CA2270090E566 /* Tests iOS */,
+				F8694069250CA2270090E566 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F869404D250CA2270090E566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8694075250CA2270090E566 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694055250CA2270090E566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8694076250CA2270090E566 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869405D250CA2270090E566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694068250CA2270090E566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F869404B250CA2270090E566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8694073250CA2270090E566 /* ContentView.swift in Sources */,
+				F8694071250CA2270090E566 /* SymbolGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694053250CA2270090E566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8694074250CA2270090E566 /* ContentView.swift in Sources */,
+				F8694072250CA2270090E566 /* SymbolGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869405B250CA2270090E566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8694064250CA2270090E566 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8694066250CA2270090E566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F869406F250CA2270090E566 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8694061250CA2270090E566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F869404E250CA2270090E566 /* SymbolGrid (iOS) */;
+			targetProxy = F8694060250CA2270090E566 /* PBXContainerItemProxy */;
+		};
+		F869406C250CA2270090E566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8694056250CA2270090E566 /* SymbolGrid (macOS) */;
+			targetProxy = F869406B250CA2270090E566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8694077250CA2270090E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8694078250CA2270090E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F869407A250CA2270090E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.SymbolGrid;
+				PRODUCT_NAME = SymbolGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F869407B250CA2270090E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.SymbolGrid;
+				PRODUCT_NAME = SymbolGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F869407D250CA2270090E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.SymbolGrid;
+				PRODUCT_NAME = SymbolGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F869407E250CA2270090E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.SymbolGrid;
+				PRODUCT_NAME = SymbolGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F8694080250CA2270090E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.donavon.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SymbolGrid (iOS)";
+			};
+			name = Debug;
+		};
+		F8694081250CA2270090E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.donavon.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SymbolGrid (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8694083250CA2270090E566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.donavon.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SymbolGrid (macOS)";
+			};
+			name = Debug;
+		};
+		F8694084250CA2270090E566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.donavon.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SymbolGrid (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8694046250CA2260090E566 /* Build configuration list for PBXProject "SymbolGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8694077250CA2270090E566 /* Debug */,
+				F8694078250CA2270090E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8694079250CA2270090E566 /* Build configuration list for PBXNativeTarget "SymbolGrid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F869407A250CA2270090E566 /* Debug */,
+				F869407B250CA2270090E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F869407C250CA2270090E566 /* Build configuration list for PBXNativeTarget "SymbolGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F869407D250CA2270090E566 /* Debug */,
+				F869407E250CA2270090E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F869407F250CA2270090E566 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8694080250CA2270090E566 /* Debug */,
+				F8694081250CA2270090E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8694082250CA2270090E566 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8694083250CA2270090E566 /* Debug */,
+				F8694084250CA2270090E566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8694043250CA2260090E566 /* Project object */;
+}
