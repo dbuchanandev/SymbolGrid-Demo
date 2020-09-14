@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8328804250F303800A91C04 /* SFSymbolsPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F8328803250F303800A91C04 /* SFSymbolsPackage */; };
+		F8328806250F304600A91C04 /* SFSymbolsPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F8328805250F304600A91C04 /* SFSymbolsPackage */; };
 		F8694064250CA2270090E566 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694063250CA2270090E566 /* Tests_iOS.swift */; };
 		F869406F250CA2270090E566 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869406E250CA2270090E566 /* Tests_macOS.swift */; };
 		F8694071250CA2270090E566 /* SymbolGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694048250CA2260090E566 /* SymbolGridApp.swift */; };
@@ -15,6 +17,10 @@
 		F8694074250CA2270090E566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8694049250CA2260090E566 /* ContentView.swift */; };
 		F8694075250CA2270090E566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869404A250CA2270090E566 /* Assets.xcassets */; };
 		F8694076250CA2270090E566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869404A250CA2270090E566 /* Assets.xcassets */; };
+		F8E8D9D6250F416000E78EE8 /* SymbolTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D9D5250F416000E78EE8 /* SymbolTileView.swift */; };
+		F8E8D9D7250F416000E78EE8 /* SymbolTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D9D5250F416000E78EE8 /* SymbolTileView.swift */; };
+		F8E8D9D9250F420900E78EE8 /* SymbolGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D9D8250F420900E78EE8 /* SymbolGridView.swift */; };
+		F8E8D9DA250F420900E78EE8 /* SymbolGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D9D8250F420900E78EE8 /* SymbolGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		F869406A250CA2270090E566 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F869406E250CA2270090E566 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F8694070250CA2270090E566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E8D9D5250F416000E78EE8 /* SymbolTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTileView.swift; sourceTree = "<group>"; };
+		F8E8D9D8250F420900E78EE8 /* SymbolGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8328804250F303800A91C04 /* SFSymbolsPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8328806250F304600A91C04 /* SFSymbolsPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +102,7 @@
 				F8694062250CA2270090E566 /* Tests iOS */,
 				F869406D250CA2270090E566 /* Tests macOS */,
 				F8694050250CA2270090E566 /* Products */,
+				F8694085250CA2670090E566 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +111,8 @@
 			children = (
 				F8694048250CA2260090E566 /* SymbolGridApp.swift */,
 				F8694049250CA2260090E566 /* ContentView.swift */,
+				F8E8D9D5250F416000E78EE8 /* SymbolTileView.swift */,
+				F8E8D9D8250F420900E78EE8 /* SymbolGridView.swift */,
 				F869404A250CA2270090E566 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +164,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		F8694085250CA2670090E566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +187,9 @@
 			dependencies = (
 			);
 			name = "SymbolGrid (iOS)";
+			packageProductDependencies = (
+				F8328803250F303800A91C04 /* SFSymbolsPackage */,
+			);
 			productName = "SymbolGrid (iOS)";
 			productReference = F869404F250CA2270090E566 /* SymbolGrid.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +207,9 @@
 			dependencies = (
 			);
 			name = "SymbolGrid (macOS)";
+			packageProductDependencies = (
+				F8328805250F304600A91C04 /* SFSymbolsPackage */,
+			);
 			productName = "SymbolGrid (macOS)";
 			productReference = F8694057250CA2270090E566 /* SymbolGrid.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +284,9 @@
 				Base,
 			);
 			mainGroup = F8694042250CA2260090E566;
+			packageReferences = (
+				F8328802250F303800A91C04 /* XCRemoteSwiftPackageReference "SFSymbolsPackage" */,
+			);
 			productRefGroup = F8694050250CA2270090E566 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -309,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8694073250CA2270090E566 /* ContentView.swift in Sources */,
+				F8E8D9D6250F416000E78EE8 /* SymbolTileView.swift in Sources */,
+				F8E8D9D9250F420900E78EE8 /* SymbolGridView.swift in Sources */,
 				F8694071250CA2270090E566 /* SymbolGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8694074250CA2270090E566 /* ContentView.swift in Sources */,
+				F8E8D9D7250F416000E78EE8 /* SymbolTileView.swift in Sources */,
+				F8E8D9DA250F420900E78EE8 /* SymbolGridView.swift in Sources */,
 				F8694072250CA2270090E566 /* SymbolGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +729,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8328802250F303800A91C04 /* XCRemoteSwiftPackageReference "SFSymbolsPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/donavoncade/SFSymbolsPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8328803250F303800A91C04 /* SFSymbolsPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8328802250F303800A91C04 /* XCRemoteSwiftPackageReference "SFSymbolsPackage" */;
+			productName = SFSymbolsPackage;
+		};
+		F8328805250F304600A91C04 /* SFSymbolsPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8328802250F303800A91C04 /* XCRemoteSwiftPackageReference "SFSymbolsPackage" */;
+			productName = SFSymbolsPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8694043250CA2260090E566 /* Project object */;
 }
