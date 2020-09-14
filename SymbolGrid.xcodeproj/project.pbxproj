@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F817476C250F4800005BC8DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8694048250CA2260090E566 /* SymbolGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridApp.swift; sourceTree = "<group>"; };
 		F8694049250CA2260090E566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F869404A250CA2270090E566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		F8694042250CA2260090E566 = {
 			isa = PBXGroup;
 			children = (
+				F817476C250F4800005BC8DD /* README.md */,
 				F8694047250CA2260090E566 /* Shared */,
 				F8694051250CA2270090E566 /* iOS */,
 				F8694058250CA2270090E566 /* macOS */,
