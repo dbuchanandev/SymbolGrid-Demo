@@ -22,12 +22,18 @@ struct SymbolGridView<S>: View where S: SFSymbol {
     
     var body: some View {
         LazyVGrid(columns: grid, spacing: 20) {
-            Section(header: 
-                        Text(sectionName)
-            ) {
-                ForEach(symbolArray) { symbol in
-                    SymbolTileView(symbol: symbol)
-                }
+            
+            //TODO: Section headers seem to be problematic with scrolling for now
+            //            Section(header: 
+            //                        Text(sectionName)
+            //            ) {
+            //                ForEach(symbolArray) { symbol in
+            //                    SymbolTileView(symbol: symbol)
+            //                }
+            //            }
+            
+            ForEach(symbolArray) { symbol in
+                SymbolTileView(symbol: symbol)
             }
         }
     }

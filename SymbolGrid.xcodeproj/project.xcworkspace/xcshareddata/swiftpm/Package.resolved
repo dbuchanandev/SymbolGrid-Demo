@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SFSymbolsPackage",
+        "repositoryURL": "https://github.com/donavoncade/SFSymbolsPackage.git",
+        "state": {
+          "branch": "main",
+          "revision": "7eae2a4d4a61fbad3947184187c6bd2a51923cb5",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
