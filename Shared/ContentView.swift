@@ -16,8 +16,11 @@ struct ContentView: View {
             /*
              SwiftUI has some odd behavior when scrolling multiple grids.
              The scroll position jumps around unpredictably as each grid loads in.
+             
+             List also seems to have poor scrolling performance with a large grid.
+             ScrollView does much better.
              */
-            List {
+            ScrollView {
                 SymbolGridView(sectionName: "All Symbols", symbolArray: SFSymbols.allCases)
             }
             .navigationTitle(Text("SF Symbols"))
